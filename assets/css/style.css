@@ -1,0 +1,168 @@
+
+/* .lta {
+    color: #fff;
+    text-align: center;
+    background-size: cover;
+    background-color: #d2bd9c;
+    font-size: 1em;
+    font-family: Merriweather, serif;
+    padding: 11em 0 13em;
+  } */
+html{
+    scroll-behavior: smooth;
+}
+
+
+ #top {
+    background-color: f6f6f6;
+     
+    background-image: url(images/efe-kurnaz-RnCPiXixooY-unsplash.jpg);
+    /* background:no-repeat;    */
+    /* width:100%; */
+  
+ } 
+
+  .nf {
+    color: #000;
+    text-align: center;
+    /* background-color: #f6f6f6; */
+    font-family: Raleway, sans-serif;
+    line-height: 3em;
+    padding-top: 11em;
+    padding-bottom: 13em;
+  }
+  
+  .nf-r1 {
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.2em;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 2em;
+   
+    color: rgba(245, 245, 245, 0.856)
+  }
+  
+  .nf-r1::after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 20%;
+    bottom: -0.5em;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    background-color: #000;
+    
+  }
+  
+  .nf-r2 {
+    font-family: Lora, serif;
+    font-size: 8em;
+    line-height: 1em;
+    font-weight: 300;
+    font-style: italic;
+    
+    color: rgba(245, 245, 245, 0.856)
+  }
+
+ 
+
+  .bg-4 { 
+    background-color: #2f2f2f;
+    color: #ffffff;
+  }
+
+  .container-fluid {
+    padding: 20px 30px;
+  }
+
+  .bg-grey {
+    background-color: #f6f6f6;
+    margin: 100px;
+
+  }
+
+  .thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+  }
+  
+  .thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+  }
+
+  #myNav {
+    margin-bottom: 0;
+    background-color: #39329be1;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity: 0.9;
+    padding: 1rem;
+  
+
+  }
+  .navbar li a, .navbar .navbar-brand { 
+    color: #d5d5d5
+    /* position:absolute; */
+    
+  }
+  .navbar-nav li a:hover {
+    color: #fff
+  }
+  .navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #2e2e49a2 !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+  }
+
+  .slideanim {visibility:hidden;}
+.slide {
+  /* The name of the animation */
+  animation-name: slide;
+  -webkit-animation-name: slide; 
+  /* The duration of the animation */
+  animation-duration: 2s; 
+  -webkit-animation-duration: 2s;
+  /* Make the element visible */
+  visibility: visible; 
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateY(70%);
+  } 
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  } 
+}
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  } 
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+
+#p, #c, #a{
+
+    color:whitesmoke
+} 
+
+#portfolio, #contact {
+    padding-top: 11em;
+    padding-bottom: 13em;
+}
